@@ -12,13 +12,13 @@
   <br><br>
   
   <!-- Languages & Skills -->
-  <table border="0">
+  <table width="100%">
     <tr>
       <td width="50%" align="center">
         <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lashu555&layout=compact&hide_border=true&title_color=58a6ff&text_color=8b949e&bg_color=00000000" alt="Languages">
       </td>
       <td width="50%" align="center">
-        <img height="30" src="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" alt="Swift">
+        <img height="160" src="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" alt="Swift">
       </td>
     </tr>
   </table>
@@ -26,7 +26,7 @@
   <br>
   
   <!-- Portfolio -->
-  <table border="0">
+  <table width="100%">
     <tr>
       <td width="40%" align="center" valign="middle">
         <img width="160" src="https://github.com/lashu555/lashu555/blob/main/enhanced-golden-emblem.svg" alt="Golden Emblem">
@@ -43,7 +43,7 @@
   <details>
     <summary><i>Skills & Experience</i></summary>
     <br>
-    <table border="0">
+    <table width="100%">
       <tr>
         <td align="center"><b>Frontend</b></td>
         <td align="center"><b>Backend</b></td>
