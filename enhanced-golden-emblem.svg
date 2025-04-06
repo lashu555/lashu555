@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Enhanced gradients and filters -->
+  <defs>
+    <!-- Radiant golden background -->
+    <radialGradient id="goldAura" cx="50%" cy="50%" r="60%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFFDF0" />
+      <stop offset="30%" stop-color="#FFF3B8" />
+      <stop offset="60%" stop-color="#FFE45C" />
+      <stop offset="80%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#B8860B" />
+    </radialGradient>
+    
+    <!-- Decorative gradient -->
+    <linearGradient id="jewelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="50%" stop-color="#FFC125" />
+      <stop offset="100%" stop-color="#DAA520" />
+    </linearGradient>
+    
+    <!-- Enhanced glow effect -->
+    <filter id="enhancedGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- Sparkle filter -->
+    <filter id="sparkle" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </defs>
+  
+  <!-- Luminous background -->
+  <circle cx="200" cy="200" r="190" fill="url(#goldAura)" />
+  
+  <!-- Ornate shield base -->
+  <path d="M200 30 
+           C260 30, 320 70, 320 150
+           C320 260, 260 320, 200 360
+           C140 320, 80 260, 80 150
+           C80 70, 140 30, 200 30Z" 
+        fill="none" stroke="#DAA520" stroke-width="8" filter="url(#enhancedGlow)" />
+  
+  <!-- Decorative inner shield -->
+  <path d="M200 50 
+           C250 50, 300 85, 300 150
+           C300 245, 250 295, 200 330
+           C150 295, 100 245, 100 150
+           C100 85, 150 50, 200 50Z" 
+        fill="none" stroke="#F0E68C" stroke-width="3" opacity="0.7" />
+  
+  <!-- Ornate crown -->
+  <path d="M140 60 L160 40 L180 55 L200 35 L220 55 L240 40 L260 60" 
+        fill="none" stroke="#DAA520" stroke-width="4" filter="url(#enhancedGlow)" />
+  <path d="M145 60 L160 45 L180 58 L200 40 L220 58 L240 45 L255 60" 
+        fill="none" stroke="#FFF8DC" stroke-width="1.5" />
+  
+  <!-- Central medallion -->
+  <circle cx="200" cy="200" r="70" fill="url(#jewelGradient)" stroke="#DAA520" stroke-width="4" />
+  
+  <!-- Decorative patterns -->
+  <!-- Mandala-like pattern -->
+  <g filter="url(#enhancedGlow)">
+    <!-- Star pattern -->
+    <path d="M200 130 L210 200 L200 270 L190 200 Z" fill="#FFF8DC" opacity="0.8" />
+    <path d="M130 170 L200 190 L270 170 L200 210 Z" fill="#FFF8DC" opacity="0.8" />
+    <path d="M130 230 L200 210 L270 230 L200 190 Z" fill="#FFF8DC" opacity="0.8" />
+    
+    <!-- Ornate decorative circles -->
+    <circle cx="200" cy="200" r="50" fill="none" stroke="#F0E68C" stroke-width="2" />
+    <circle cx="200" cy="200" r="40" fill="none" stroke="#FFF8DC" stroke-width="1" />
+    
+    <!-- Fleur-de-lis patterns -->
+    <g transform="translate(200, 140) scale(0.15)">
+      <path d="M0 0 L0 -100 C-50 -150, -50 -200, 0 -250 C50 -200, 50 -150, 0 -100" fill="#DAA520" />
+      <path d="M-30 -100 C-50 -50, -100 -50, -100 0 C-50 -20, -30 -50, 0 -50 C30 -50, 50 -20, 100 0 C100 -50, 50 -50, 30 -100" fill="#DAA520" />
+    </g>
+    <g transform="translate(200, 260) scale(0.15) rotate(180)">
+      <path d="M0 0 L0 -100 C-50 -150, -50 -200, 0 -250 C50 -200, 50 -150, 0 -100" fill="#DAA520" />
+      <path d="M-30 -100 C-50 -50, -100 -50, -100 0 C-50 -20, -30 -50, 0 -50 C30 -50, 50 -20, 100 0 C100 -50, 50 -50, 30 -100" fill="#DAA520" />
+    </g>
+    <g transform="translate(140, 200) scale(0.15) rotate(270)">
+      <path d="M0 0 L0 -100 C-50 -150, -50 -200, 0 -250 C50 -200, 50 -150, 0 -100" fill="#DAA520" />
+      <path d="M-30 -100 C-50 -50, -100 -50, -100 0 C-50 -20, -30 -50, 0 -50 C30 -50, 50 -20, 100 0 C100 -50, 50 -50, 30 -100" fill="#DAA520" />
+    </g>
+    <g transform="translate(260, 200) scale(0.15) rotate(90)">
+      <path d="M0 0 L0 -100 C-50 -150, -50 -200, 0 -250 C50 -200, 50 -150, 0 -100" fill="#DAA520" />
+      <path d="M-30 -100 C-50 -50, -100 -50, -100 0 C-50 -20, -30 -50, 0 -50 C30 -50, 50 -20, 100 0 C100 -50, 50 -50, 30 -100" fill="#DAA520" />
+    </g>
+  </g>
+  
+  <!-- Central jewel -->
+  <circle cx="200" cy="200" r="25" fill="#FFD700" stroke="#DAA520" stroke-width="2" />
+  <circle cx="190" cy="190" r="8" fill="white" opacity="0.8" />
+  <circle cx="195" cy="195" r="3" fill="white" />
+  
+  <!-- Subtle light rays -->
+  <g opacity="0.6">
+    <path d="M200 130 L200 80" stroke="#FFF8DC" stroke-width="1" />
+    <path d="M200 270 L200 320" stroke="#FFF8DC" stroke-width="1" />
+    <path d="M130 200 L80 200" stroke="#FFF8DC" stroke-width="1" />
+    <path d="M270 200 L320 200" stroke="#FFF8DC" stroke-width="1" />
+    <path d="M150 150 L110 110" stroke="#FFF8DC" stroke-width="1" />
+    <path d="M250 150 L290 110" stroke="#FFF8DC" stroke-width="1" />
+    <path d="M150 250 L110 290" stroke="#FFF8DC" stroke-width="1" />
+    <path d="M250 250 L290 290" stroke="#FFF8DC" stroke-width="1" />
+  </g>
+  
+  <!-- Delicate filigree patterns -->
+  <path d="M110 150 Q200 175, 290 150" stroke="#F0E68C" stroke-width="1" fill="none" />
+  <path d="M110 250 Q200 225, 290 250" stroke="#F0E68C" stroke-width="1" fill="none" />
+  <path d="M150 110 Q175 200, 150 290" stroke="#F0E68C" stroke-width="1" fill="none" />
+  <path d="M250 110 Q225 200, 250 290" stroke="#F0E68C" stroke-width="1" fill="none" />
+</svg>
