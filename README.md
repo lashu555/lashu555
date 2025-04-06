@@ -1,4 +1,5 @@
 ## Hi there 👋
+![Golden Protector Emblem](https://github.com/lashu555/lashu555/blob/main/golden-protector-emblem.svg)
 
 <!--
 **lashu555/lashu555** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
