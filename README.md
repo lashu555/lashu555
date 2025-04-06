@@ -14,10 +14,10 @@
   <!-- Languages & Skills -->
   <table width="100%">
     <tr>
-      <td width="50%" align="center">
+      <td align="center">
         <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lashu555&layout=compact&hide_border=true&title_color=58a6ff&text_color=8b949e&bg_color=00000000" alt="Top Languages">
       </td>
-      <td width="50%" align="center">
+      <td align="center">
         <img height="160" src="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" alt="Swift">
       </td>
     </tr>
@@ -28,10 +28,10 @@
   <!-- Portfolio -->
   <table width="100%">
     <tr>
-      <td width="40%" align="center" valign="middle">
+      <td align="center" valign="middle">
         <img width="160" src="https://github.com/lashu555/lashu555/blob/main/enhanced-golden-emblem.svg" alt="Golden Emblem">
       </td>
-      <td width="60%" align="center" valign="middle">
+      <td align="center" valign="middle">
         <img width="240" src="https://media.giphy.com/media/3o7btNsz6KhCnhdWSY/giphy.gif?cid=790b7611zi87cp6lbjf6bkjube9nyhygcmi7i52kbx32b3by&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Interactive Media">
       </td>
     </tr>
