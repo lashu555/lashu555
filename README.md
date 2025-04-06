@@ -15,7 +15,7 @@
   <table width="100%">
     <tr>
       <td width="50%" align="center">
-        <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lashu555&layout=compact&hide_border=true&title_color=58a6ff&text_color=8b949e&bg_color=00000000" alt="Languages">
+        <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lashu555&layout=compact&hide_border=true&title_color=58a6ff&text_color=8b949e&bg_color=00000000" alt="Top Languages">
       </td>
       <td width="50%" align="center">
         <img height="160" src="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" alt="Swift">
@@ -60,17 +60,3 @@
   </details>
   
 </div>
-<!--
-**lashu555/lashu555** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
